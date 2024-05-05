@@ -26,7 +26,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   } catch {
     stiker = `قم بالأشارة على ملصق بأستخدام 
     
-*/حقوق* dark | man`
+*/حقوق* Deku | man`
   } finally {
     m.reply(stiker)
   }
