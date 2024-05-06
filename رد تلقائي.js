@@ -4,7 +4,7 @@ let handler = m => m;
 
    let chat = global.db.data.chats[m.chat]; 
    let responses; 
-   if (/^نيزوكو$/i.test(m.text)) { 
+   if (/^روبين$/i.test(m.text)) { 
      responses = [ 
  '🫦✨'  
      ];
@@ -29,15 +29,15 @@ let handler = m => m;
     
     }else if (/^اكيرا$/i.test(m.text)) { 
      responses = [ 
-       '*عمك*',  
+        '*كائن مقتول و شذ 🏳️‍🌈*',  
      ];
         }else if (/^المطور$/i.test(m.text)) { 
      responses = [ 
-       '*السيد اكيرا*',  
+       '*السيد ديكو*',  
      ];
         }else if (/^مطور$/i.test(m.text)) { 
      responses = [ 
-       '*عمك اكيرا*',  
+       '*عمك ديكو*',  
      ];
         }else if (/^.مطور$/i.test(m.text)) { 
      responses = [ 
@@ -47,6 +47,11 @@ let handler = m => m;
         }else if (/^.تعدين$/i.test(m.text)) { 
      responses = [ 
        '*ف هذا البوت اسمها التعدين*',  
+     ];
+    
+    }else if (/^.البوت مات$/i.test(m.text)) { 
+     responses = [ 
+       '*مفيش ميت غيرك يا عاق*',  
      ];
       
    }
